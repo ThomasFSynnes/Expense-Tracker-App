@@ -1,0 +1,26 @@
+{
+    "button":{
+        "ok":"OK",
+        "save":"Lagre",
+        "cancel":"Avbryt",
+        "undo":"Angre"
+    },
+    
+    "expenses":{
+        "title":"Utgifts Oversikt",
+        "removed":"Utgift fjernet",
+        "emptyList":"Utgiftslisten er tom"
+    },
+
+    "new_Expense":{
+        "invalidTitleError":"Ugylding input",
+        "invalidMessageError":"Venligs fyll ut skjema med gylding tittel, sum, og dato",
+        "noDate":"Ingen dato er valgt",
+        "title":"Tittel",
+        "amount":"Sum"
+    },
+
+    "options":{
+        "selectLanguage":"Endre språk"
+    }
+}

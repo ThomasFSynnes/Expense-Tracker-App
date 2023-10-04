@@ -1,0 +1,26 @@
+{
+    "button":{
+        "ok":"OK",
+        "save":"Save",
+        "cancel":"Cancel",
+        "undo":"Undo"
+    },
+    
+    "expenses":{
+        "title":"Expense Tracker",
+        "removed":"Expense Removed",
+        "emptyList":"The expense list is empty"
+    },
+
+    "new_Expense":{
+        "invalidTitleError":"Invalid input",
+        "invalidMessageError":"Please input a valid title, amount and date.",
+        "noDate":"No date selected",
+        "title":"Title",
+        "amount":"Amount"
+    },
+
+    "options":{
+        "selectLanguage":"Change Language"
+    }
+}
