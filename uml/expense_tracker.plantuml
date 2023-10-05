@@ -1,0 +1,50 @@
+@startuml
+class Main {
+    void : main()
+}
+
+
+class Expenses {
+    
+}
+
+Class Options {
+    
+}
+
+
+class ExpensesList {
+}
+class ExpenseItem {
+
+}
+class Expense {
+  String : id
+  String : title
+  double : amount
+  DateTime :date
+  Category : category
+}
+Class NewExpense{
+    
+}
+class Chart {
+
+}
+class ChartBar {
+    
+
+}
+Main *.. Expenses
+Expenses *.. Options
+Expenses *.. ExpensesList
+Expenses *.. Chart 
+Expenses *.. NewExpense
+Expenses *.. Expense
+ExpenseItem *.. Expense
+NewExpense *.. Expense
+ExpensesList *.. Expense
+ExpensesList "1" *.. "n" ExpenseItem
+Chart *.. ChartBar
+Chart *.. Expense
+@enduml
